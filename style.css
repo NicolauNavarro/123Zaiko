@@ -67,3 +67,10 @@ body {
 .nav-bar .lateral a:hover{
   color: var(--blue);
 }
+.nav-bar .lateral span{
+  transition: 0.5s ease;
+  cursor: pointer;
+  font-size: 26px;
+  display: none;
+}
+

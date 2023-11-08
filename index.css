@@ -145,7 +145,7 @@ iframe{
     font-size: 35px;
   }
   .main .title .btn-space{
-    gap: 20px;
+    gap: 15px;
   }
   .main .title .btn-space button{
     width: 100px;
@@ -156,10 +156,19 @@ iframe{
     width: 240px;
   }
   .nav-bar img{
-    left: 15px;
+    left: 12px;
   }
   .nav-bar .lateral{
-    gap: 15px;
-    right: 20px;
+    right: 12px;
+  }
+  .nav-bar .lateral span{
+    display: block;
+  }
+  .nav-bar .lateral a{
+    display: none;
+  }
+  iframe{
+    bottom: -17vh;
+    width: 100vw;
   }
 }
