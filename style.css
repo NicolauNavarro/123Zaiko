@@ -16,9 +16,8 @@ body {
   background: var(--gray);
   color: var(--black);
   font-family: sans-serif;
-  padding: 0px 50px;
-  height: 100vh;
   width: 100vw;
+  overflow: hidden;
 }
 
 .nav-bar{
@@ -67,11 +66,4 @@ body {
 }
 .nav-bar .lateral a:hover{
   color: var(--blue);
-}
-iframe{
-    position: absolute;
-    width: 100vw;
-    right: -30vw;
-    height: 100vh;
-    bottom: 0px;
 }
