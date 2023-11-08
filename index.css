@@ -142,22 +142,18 @@ iframe{
 }
 @media (max-width: 420px) {
   .main .title h1{
-    font-size: 30px;
+    font-size: 35px;
   }
   .main .title .btn-space{
     gap: 20px;
   }
   .main .title .btn-space button{
-    width: 120px;
+    width: 100px;
     height: 40px;
     font-size: 16px;
   }
   .main .title .btn-space .btn-main-2{
-    width: 260px;
-  }
-  iframe{
-    bottom: -19vh;
-    height: 90vh;
+    width: 240px;
   }
   .nav-bar img{
     left: 15px;
