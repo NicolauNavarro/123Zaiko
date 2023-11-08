@@ -159,7 +159,7 @@ iframe{
     left: 12px;
   }
   .nav-bar .lateral{
-    right: 12px;
+    right: 18px;
   }
   .nav-bar .lateral span{
     display: block;
@@ -170,5 +170,7 @@ iframe{
   iframe{
     bottom: -17vh;
     width: 100vw;
+    right: 0;
+    height: 85vh;
   }
 }
