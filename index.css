@@ -1,34 +1,47 @@
 .main{
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-  }
-  .main .title{
-    margin-left: 45px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-  }
-  .main .title h1{
-    font-size: 75px;
-    color: var(--pink);
-  }
-  .main .title button{
-    width: 200px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: none;
-    border-radius: 18px;
-    border: 2px solid var(--pink);
-    color: var(--pink);
-    font-size: 20px;
-    transition: 0.2s ease;
-    cursor: pointer;
-  }
-  .main .title button:hover{
-    background-color: var(--pink);
-    color: var(--gray);
-  }
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+.main .title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 35px;
+  z-index: 2;
+}
+.main .title h1{
+  font-size: 75px;
+  color: var(--pink);
+}
+.main .title .btn-space{
+  display: flex;
+  gap: 45px;
+}
+.main .title .btn-space button{
+  width: 210px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border-radius: 18px;
+  border: 2px solid var(--pink);
+  color: var(--pink);
+  font-size: 20px;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+.main .title .btn-space button:hover{
+  background-color: var(--pink);
+  color: var(--gray);
+}
+.main .title .btn-space .btn-main-2{
+  width: 350px;
+  background-color: var(--pink);
+  color: var(--gray);
+}
+.main .title .btn-space .btn-main-2:hover{
+  background-color: var(--gray);
+  color: var(--pink);
+}

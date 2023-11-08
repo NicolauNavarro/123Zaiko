@@ -16,31 +16,62 @@ body {
   background: var(--gray);
   color: var(--black);
   font-family: sans-serif;
+  padding: 0px 50px;
+  height: 100vh;
+  width: 100vw;
 }
 
 .nav-bar{
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   width: 100vw;
   padding: 4px 30px;
   background-color: var(--white);
+  height: 50px;
+  z-index: 3;
+}
+.nav-bar img{
+    position: absolute;
+    left: 30px;
+    cursor: pointer;
 }
 .nav-bar .menu{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
+  gap: 25px;
 }
 .nav-bar .menu a{
-  font-size: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.nav-bar .menu a:hover{
+  color: var(--blue);
 }
 .nav-bar .lateral{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 30px;
+    gap: 20px;
+    position: absolute;
+    right: 40px;
+}
+.nav-bar .lateral a{
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+.nav-bar .lateral a:hover{
+  color: var(--blue);
+}
+iframe{
+    position: absolute;
+    width: 100vw;
+    right: -30vw;
+    height: 100vh;
+    bottom: 0px;
 }
