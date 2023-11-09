@@ -19,7 +19,16 @@ body {
   width: 100vw;
   overflow: hidden;
 }
-
+.burger-menu{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 19;
+  top: -100vh;
+  left: 0;
+  transition: 1s ease;
+  display: none;
+}
 .nav-bar{
   position: fixed;
   top: 0;
@@ -31,7 +40,7 @@ body {
   padding: 4px 30px;
   background-color: var(--white);
   height: 50px;
-  z-index: 3;
+  z-index: 20;
 }
 .nav-bar img{
     position: absolute;
